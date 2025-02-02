@@ -15,7 +15,7 @@ async function sendMail(toEmail, otp) {
     subject: "OTP Verification",
     html: `      <div style="text-align: center; font-family: Arial, sans-serif;">
         <img src="../public/images/robot.jpg" alt="Company Logo" style="width: 100px; height: 100px;">
-        <h1>Aditya Group Company</h1>
+        <h1>Company Name</h1>
         <p>Your OTP is: <strong>${otp}</strong></p>
         <p>This OTP is valid for 5 minutes.</p> 
       </div>
